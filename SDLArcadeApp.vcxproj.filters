@@ -27,10 +27,10 @@
     <ClCompile Include="Graphics\Color.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenBuffer.cpp">
+    <ClCompile Include="Graphics\Screen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Screen.cpp">
+    <ClCompile Include="Graphics\ScreenBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,10 +44,10 @@
     <ClInclude Include="Graphics\Color.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenBuffer.h">
+    <ClInclude Include="Graphics\Screen.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Screen.h">
+    <ClInclude Include="Graphics\ScreenBuffer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
