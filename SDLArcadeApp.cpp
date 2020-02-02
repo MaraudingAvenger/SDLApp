@@ -2,6 +2,7 @@
 #include <SDL.h>
 #include "Color.h"
 #include "Screen.h"
+#include "Line2D.h"
 
 const int SCREEN_WIDTH = 224;
 const int SCREEN_HEIGHT = 288;
@@ -13,7 +14,11 @@ int main(int argc, char* argv[])
 	Screen theScreen;
 
 	theScreen.Init(SCREEN_WIDTH, SCREEN_HEIGHT, MAGNIFICATION);
-	theScreen.Draw(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, Color::Yellow());
+	
+	Line2D line = { Vec2D(0,0), Vec2D(SCREEN_WIDTH, SCREEN_HEIGHT) };
+
+	theScreen.Draw(line, Color::Green());
+
 	theScreen.SwapScreens();
 	
 
@@ -32,6 +37,8 @@ int main(int argc, char* argv[])
 				break;
 			}
 		}
+
+
 	}
 
 	

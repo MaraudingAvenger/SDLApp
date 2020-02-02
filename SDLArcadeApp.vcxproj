@@ -91,7 +91,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Shapes;C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -109,7 +109,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Shapes;C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,7 +129,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Shapes;C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +151,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\marau\source\repos\SDLArcadeApp\Shapes;C:\Users\marau\source\repos\SDLArcadeApp\Graphics;C:\Users\marau\source\repos\SDLArcadeApp\Utils;C:\Libraries\SDL2-2.0.10\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -167,6 +167,7 @@
     <ClCompile Include="Graphics\Screen.cpp" />
     <ClCompile Include="Graphics\ScreenBuffer.cpp" />
     <ClCompile Include="SDLArcadeApp.cpp" />
+    <ClCompile Include="Shapes\Line2D.cpp" />
     <ClCompile Include="Utils\Utils.cpp" />
     <ClCompile Include="Utils\Vec2D.cpp" />
   </ItemGroup>
@@ -174,6 +175,7 @@
     <ClInclude Include="Graphics\Color.h" />
     <ClInclude Include="Graphics\Screen.h" />
     <ClInclude Include="Graphics\ScreenBuffer.h" />
+    <ClInclude Include="Shapes\Line2D.h" />
     <ClInclude Include="Utils\Utils.h" />
     <ClInclude Include="Utils\Vec2D.h" />
   </ItemGroup>
