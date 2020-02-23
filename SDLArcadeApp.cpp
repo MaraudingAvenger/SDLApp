@@ -3,6 +3,7 @@
 #include "Color.h"
 #include "Screen.h"
 #include "Line2D.h"
+#include <vector>
 
 const int SCREEN_WIDTH = 224;
 const int SCREEN_HEIGHT = 288;
@@ -21,7 +22,6 @@ int main(int argc, char* argv[])
 
 	theScreen.SwapScreens();
 	
-
 	SDL_Event sdlEvent;
 	bool running = true;
 
@@ -37,7 +37,6 @@ int main(int argc, char* argv[])
 				break;
 			}
 		}
-
 
 	}
 
